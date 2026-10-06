@@ -1,4 +1,4 @@
-$MinimumVersion = [version]'2026.9.22'
+$MinimumVersion = [version]'2026.9.35'
 $programFiles = if ($env:ProgramW6432) { $env:ProgramW6432 } else { $env:ProgramFiles }
 $exe = Join-Path $programFiles 'dME\Agent\rito-service.exe'
 
